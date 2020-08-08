@@ -10,12 +10,12 @@ async function get_token(dc = NaN, key = NaN) {
 		key: 'sp_dc',
 		value: dc,
 		domain: 'open.spotify.com',
-	}), 'https://open.spotify.com');
+	}).toString(), 'https://open.spotify.com');
     cookiejar.setCookie(new tough.Cookie({
 		key: 'sp_key',
 		value: key,
 		domain: 'open.spotify.com',
-	}), 'https://open.spotify.com');
+	}).toString(), 'https://open.spotify.com');
 
     var options = {
         url: "https://open.spotify.com/get_access_token?reason=transport&productType=web_player",
