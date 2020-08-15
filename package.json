@@ -1,6 +1,6 @@
 {
-  "name": "spotify-webplayer-token",
-  "version": "1.0.0",
+  "name": "spotify-token",
+  "version": "1.0.1",
   "description": "JavaScript wrapper for Spotify's Web Player's Access token",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quiec/spotify-webplayer-token.git"
+    "url": "git+https://github.com/quiec/spotify-token.git"
   },
   "keywords": [
     "spotify",
@@ -17,9 +17,9 @@
   "author": "quiec",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quiec/spotify-webplayer-token/issues"
+    "url": "https://github.com/quiec/spotify-token/issues"
   },
-  "homepage": "https://github.com/quiec/spotify-webplayer-token#readme",
+  "homepage": "https://github.com/quiec/spotify-token#readme",
   "dependencies": {
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
